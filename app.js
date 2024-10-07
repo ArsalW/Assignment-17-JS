@@ -1,26 +1,22 @@
-// Chapter 21-25 PDF
+// Chapter 21-25 
 
 // 1
-
 var firstName = prompt("Enter your first name:");
 var lastName = prompt("Enter your last name:");
 var fullName = firstName + " " + lastName;
 alert("Hello " + fullName + "!");
 
 // 2.
-
 var mobileModel = prompt("Enter your favorite mobile phone model:");
 alert("Length of your input: " + mobileModel.length);
 
 // 3.
-
 var word = "Pakistani";
 var index = word.indexOf("n");
 alert("Index of 'n': " + index);
 
 
 // 4.
-
 var word = "Hello World";
 var lastIndex = word.lastIndexOf("l");
 alert("Last index of 'l': " + lastIndex);
@@ -49,21 +45,18 @@ alert("Updated city name: " + newCity);
 
 
 // 8.
-
-var message = "Ali and Sami are best friends. They play cricket and football together.";
+var message = "Faraz and Fatima are best friends. They play cricket and football together.";
 var newMessage = message.replace(/and/g, "&");
 alert(newMessage);
 
 
 // 9.
-
 var str = "472";
 var num = Number(str);
 alert("Value: " + num + ", Type: " + typeof num);
 
 
 // 10.
-
 var userInput = prompt("Enter a string:");
 var upperCaseInput = userInput.toUpperCase();
 alert("Uppercase: " + upperCaseInput);
